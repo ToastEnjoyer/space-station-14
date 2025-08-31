@@ -4,8 +4,8 @@ meta:
   engineVersion: 266.0.0
   forkId: ""
   forkVersion: ""
-  time: 08/29/2025 15:07:57
-  entityCount: 23830
+  time: 08/31/2025 19:44:24
+  entityCount: 23829
 maps:
 - 5350
 grids:
@@ -11880,7 +11880,7 @@ entities:
       pos: 34.5,45.5
       parent: 30
     - type: Door
-      secondsUntilStateChange: -25488.797
+      secondsUntilStateChange: -25263.023
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -13768,6 +13768,14 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 3.5,10.5
+      parent: 30
+    - type: Fixtures
+      fixtures: {}
+  - uid: 23387
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -30.5,41.5
       parent: 30
     - type: Fixtures
       fixtures: {}
@@ -34922,6 +34930,11 @@ entities:
     - type: Transform
       pos: -10.5,-66.5
       parent: 30
+  - uid: 23824
+    components:
+    - type: Transform
+      pos: -30.5,41.5
+      parent: 30
 - proto: CableApcStack
   entities:
   - uid: 1637
@@ -47164,6 +47177,31 @@ entities:
     components:
     - type: Transform
       pos: -24.5,-38.5
+      parent: 30
+  - uid: 23825
+    components:
+    - type: Transform
+      pos: -32.5,43.5
+      parent: 30
+  - uid: 23826
+    components:
+    - type: Transform
+      pos: -31.5,43.5
+      parent: 30
+  - uid: 23827
+    components:
+    - type: Transform
+      pos: -30.5,43.5
+      parent: 30
+  - uid: 23828
+    components:
+    - type: Transform
+      pos: -30.5,42.5
+      parent: 30
+  - uid: 23829
+    components:
+    - type: Transform
+      pos: -30.5,41.5
       parent: 30
 - proto: CableMVStack
   entities:
@@ -127098,6 +127136,9 @@ entities:
     - type: Transform
       pos: -25.947893,-37.066498
       parent: 30
+    - type: Tag
+      tags:
+      - Spear
 - proto: SprayBottle
   entities:
   - uid: 8038
@@ -128429,17 +128470,6 @@ entities:
       - SurveillanceCameraCommand
       nameSet: True
       id: Grav Gen
-  - uid: 23824
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -20.5,40.5
-      parent: 30
-    - type: SurveillanceCamera
-      setupAvailableNetworks:
-      - SurveillanceCameraCommand
-      nameSet: True
-      id: Bridge West
 - proto: SurveillanceCameraEngineering
   entities:
   - uid: 9214
@@ -129168,16 +129198,6 @@ entities:
       - SurveillanceCameraGeneral
       nameSet: True
       id: Main Hall Botany
-  - uid: 23825
-    components:
-    - type: Transform
-      pos: -65.5,-60.5
-      parent: 30
-    - type: SurveillanceCamera
-      setupAvailableNetworks:
-      - SurveillanceCameraGeneral
-      nameSet: True
-      id: Library Hallway
 - proto: SurveillanceCameraMedical
   entities:
   - uid: 8290
@@ -129715,17 +129735,6 @@ entities:
       - SurveillanceCameraSecurity
       nameSet: True
       id: Court Room
-  - uid: 23387
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -45.5,61.5
-      parent: 30
-    - type: SurveillanceCamera
-      setupAvailableNetworks:
-      - SurveillanceCameraSecurity
-      nameSet: True
-      id: Sec Perma
 - proto: SurveillanceCameraService
   entities:
   - uid: 142
@@ -149070,54 +149079,6 @@ entities:
     - type: Transform
       pos: -38.42729,60.595303
       parent: 30
-- proto: WeaponEnergyTurretAI
-  entities:
-  - uid: 23826
-    components:
-    - type: Transform
-      pos: -5.5,78.5
-      parent: 30
-    - type: DeviceNetwork
-      deviceLists:
-      - 23830
-  - uid: 23827
-    components:
-    - type: Transform
-      pos: 4.5,78.5
-      parent: 30
-    - type: DeviceNetwork
-      deviceLists:
-      - 23830
-  - uid: 23828
-    components:
-    - type: Transform
-      pos: -5.5,88.5
-      parent: 30
-    - type: DeviceNetwork
-      deviceLists:
-      - 23830
-  - uid: 23829
-    components:
-    - type: Transform
-      pos: 4.5,88.5
-      parent: 30
-    - type: DeviceNetwork
-      deviceLists:
-      - 23830
-- proto: WeaponEnergyTurretAIControlPanel
-  entities:
-  - uid: 23830
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -1.5,73.5
-      parent: 30
-    - type: DeviceList
-      devices:
-      - 23826
-      - 23827
-      - 23828
-      - 23829
 - proto: WeaponLaserCarbine
   entities:
   - uid: 2560
