@@ -4,8 +4,13 @@ meta:
   engineVersion: 266.0.0
   forkId: ""
   forkVersion: ""
+<<<<<<< HEAD
   time: 09/03/2025 02:22:12
   entityCount: 26393
+=======
+  time: 08/31/2025 08:36:21
+  entityCount: 26386
+>>>>>>> d3731395b6de358b13364b02eaeff1244a54aa2f
 maps:
 - 1
 grids:
@@ -14702,7 +14707,11 @@ entities:
       pos: -131.5,-45.5
       parent: 2
     - type: Door
+<<<<<<< HEAD
       secondsUntilStateChange: -52944.74
+=======
+      secondsUntilStateChange: -52623.953
+>>>>>>> d3731395b6de358b13364b02eaeff1244a54aa2f
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -145786,6 +145795,38 @@ entities:
     - type: Transform
       pos: -18.5,-4.5
       parent: 2
+- proto: SpawnPointLatejoin
+  entities:
+  - uid: 20082
+    components:
+    - type: Transform
+      pos: -30.5,17.5
+      parent: 2
+  - uid: 26382
+    components:
+    - type: Transform
+      pos: -29.5,17.5
+      parent: 2
+  - uid: 26383
+    components:
+    - type: Transform
+      pos: -28.5,17.5
+      parent: 2
+  - uid: 26384
+    components:
+    - type: Transform
+      pos: -28.5,14.5
+      parent: 2
+  - uid: 26385
+    components:
+    - type: Transform
+      pos: -29.5,14.5
+      parent: 2
+  - uid: 26386
+    components:
+    - type: Transform
+      pos: -30.5,14.5
+      parent: 2
 - proto: SpawnPointLawyer
   entities:
   - uid: 354
@@ -169943,7 +169984,11 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
+<<<<<<< HEAD
       secondsUntilStateChange: -253051.47
+=======
+      secondsUntilStateChange: -252730.69
+>>>>>>> d3731395b6de358b13364b02eaeff1244a54aa2f
       state: Opening
     - type: Airlock
       autoClose: False
