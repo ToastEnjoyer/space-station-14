@@ -73,7 +73,6 @@ JobAtmosphericTechnician = Atmospheric Technician
 JobBartender = Bartender
 JobBorg = Borg
 JobBotanist = Botanist
-JobBoxer = Boxer
 JobCaptain = Captain
 JobCargoTechnician = Cargo Technician
 JobCentralCommandOfficial = Central Command Official
